@@ -1,3 +1,4 @@
+# Abstract
 There are plenty of design systems accross the web. While they are quite similar as they provide usually the same types
 of components, they are also quite different because each component has its own API when it comes to dealing with state
 managment in javascript, whether you use React, Vue, Angular or another javascript framework. It is especially true with
@@ -44,6 +45,9 @@ touching to much code
  - money
  - percent
  - rating
+## color
+ - text input with mask
+ - color picker
 ## day-month-year (alias 'date')
  - text input with mask
  - drop down
