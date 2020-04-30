@@ -25,7 +25,7 @@ touching too much code
    - separable
  - phone number
    - separable
-#### text area
+### text area
 ## boolean
 ### checkbox
 ### switch
