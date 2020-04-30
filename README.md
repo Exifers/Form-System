@@ -16,13 +16,8 @@ touching too much code
 ## text
 ### text input
 #### API
-| prop        | type     | description                        |
-|-------------|----------|------------------------------------|
-| value       | string   | value                              |
-| onChange    | Function | called when content is changed     |
-| onBlur      | Function | called when entering the component |
-| onFocus     | Function | called when leaving the component  |
-| placeholder | string   | placeholder                        |
+- props target element : ```<input />```
+No additional non React props are required for this component.
 #### common semantic variants
 ##### password input
 ##### address input
