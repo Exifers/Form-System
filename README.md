@@ -19,7 +19,7 @@ touching too much code
 | validateStatus   | 'success' \| 'warning' \| 'error' \| 'validating' \| 'none'                      | Validate status appearance                           |
 | errorMessage     | String                                                                           | Error message                                            |
 | successMessage   | String                                                                           | Success message                                          |
-| value            | String \| Boolean \| Number \| [String] \| {} \| DateTime \| Duration \| File \| | Internal value                                            |
+| value            | String \| Boolean \| Number \| [String] \| {} \| DateTime \| Duration \| File    | Internal value                                            |
 | onChange         | () => {}                                                                         | Change callback                                          |
 ## text
 ### text input
