@@ -14,39 +14,108 @@ touching too much code
 
 # Form inputs components
 ## Common API
-| prop             | type                                                                             | description                                              |
-|------------------|----------------------------------------------------------------------------------|----------------------------------------------------------|
-| validateStatus   | 'success' \| 'warning' \| 'error' \| 'validating' \| 'none'                      | Validate status appearance                           |
-| errorMessage     | String                                                                           | Error message                                            |
-| successMessage   | String                                                                           | Success message                                          |
+
+| prop               | type                                                               | default value | description                |
+| ------------------ | ------------------------------------------------------------------ | ------------- | -------------------------- |
+| validatationStatus | 'success' \| 'warning' \| 'error' \| 'loading' \| 'none' \| 'auto' | 'auto'        | Validate status appearance |
+| successMessages    | [String]                                                           | []            | List of success messages   |
+| warningMessages    | [String]                                                           | []            | List of warning messages   |
+| errorMessages      | [String]                                                           | []            | List of error messages     |
+
 
 ## text
 ### text input
-#### API
-- props target element : ```<input />```
+A canonical component to input textual data.
+```jsx=
+<input/>
+<input type='text'/>
+```
+Props are populated into the internal ```<input/>``` element.
 
-No additional non React props are required for this component.
-#### common semantic variants
-##### password input
-| prop             | type    | description                     |
-|------------------|---------|---------------------------------|
-| visibilityToggle | Boolean | Show toggle visibility button\. |
+Returned value : a string representing the content of the text input.
 
-Possible features :
- - toggle visibility
-##### address input
-Possible features :
+### password input
+A semantic variant of the text input.
+```jsx=
+<input type='password'/>
+```
+Additional features :
+ - visibility toggle
+
+| prop             | type    | default value | description                        |
+| ---------------- | ------- | ------------- | ---------------------------------- |
+| visibilityToggle | Boolean | true          | Shows a toggle visibility button   |
+
+Returned value : a string representing the content of the password input.
+
+### address input
+A separable component, semantic variant of the text input.
+```jsx=
+<input type='address'/>
+```
+Additional features :
  - international
-###### separable version
-##### url input
-###### separable version
-##### email input
-###### separable version
-##### phone number
-Possible features :
+
+| prop      | type    | default value | description              |
+| --------- | ------- | ------------- | ------------------------ |
+| separated | Boolean | true          | Use multiple form inputs |
+
+Returned value :
+```javascript=
+{
+  addressLine1: String,
+  addressLine2: String,
+  city: String,
+  stateOrProvince: String,
+  country: <country code>,
+  zipOrPostalCode: String
+}
+```
+based on [this article](https://ux.shopify.com/designing-address-forms-for-everyone-everywhere-f481f6baf513).
+
+### url input
+A semantic variant of the text input.
+```jsx=
+<input type='url'/>
+```
+
+Returned value : a string representing the content of the url input.
+
+### email input
+A separable component, semantic variant of the text input.
+```jsx=
+<input type='email'/>
+```
+
+| prop      | type    | default value | description                                 |
+| --------- | ------- | ------------- | ------------------------------------------- |
+| separated | Boolean | true          | Use two text inputs (local part and domain) |
+
+Returned value : a string representing the content of the email input.
+
+### phone number
+A semantic variant of the text input.
+```jsx=
+<input type='phone'/>
+```
+
+Additional features : 
   - international
-###### separable version
+
+| prop      | type                      | default value | description                                   |
+| --------- | ------------------------- | ------------- | --------------------------------------------- |
+| countries | [<country_code>] \| 'all' | 'all'         | Countries for which auto format is supported. |
+
+Returned value : a string representing the content of the email input.
+
 ### text area
+A resizable text input.
+```jsx=
+<textarea/>
+```
+
+Returned value : a string representing the content of the text area.
+
 ## boolean
 ### checkbox
 ### switch
