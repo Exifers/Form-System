@@ -15,6 +15,14 @@ touching too much code
 # Components
 ## text
 ### text input
+#### API
+| prop        | type     | description                        |
+|-------------|----------|------------------------------------|
+| value       | string   | value                              |
+| onChange    | Function | called when content is changed     |
+| onBlur      | Function | called when entering the component |
+| onFocus     | Function | called when leaving the component  |
+| placeholder | string   | placeholder                        |
 #### common semantic variants
 ##### password input
 ##### address input
