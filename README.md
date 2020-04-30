@@ -25,11 +25,11 @@ Possible features :
 ##### url input
 ###### separable version
 ##### email input
-###### sepatable version
+###### separable version
 ##### phone number
 Possible features :
   - international
-###### sepatable version
+###### separable version
 ### text area
 ## boolean
 ### checkbox
