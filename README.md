@@ -27,8 +27,7 @@ touching too much code
 ##### password input
 ##### address input
 Possible features :
- - validation & suggestion from database of valid addresses
- - suggestion based on localisation
+ - international
 ###### separable version
 ##### url input
 ###### separable version
