@@ -76,7 +76,7 @@ Possible features :
 ## year
 ### yearpicker
 ## day
-### yearpicker
+### daypicker
 ## week
 ### weekpicker
 ## month
