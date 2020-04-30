@@ -16,7 +16,7 @@ touching too much code
 ## text
 ### text input
 #### API
-- props target element : ```<input />```  
+- props target element : ```<input />```   
 No additional non React props are required for this component.
 #### common semantic variants
 ##### password input
