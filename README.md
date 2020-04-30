@@ -51,7 +51,6 @@ Possible features :
 ### multitreeselect
 Possible features :
  - search
- - groups
 ## number
 - comparable
 ### numeric input
