@@ -12,7 +12,13 @@ This document aims at :
 - define an API for each component so that design systems following this API could be switched from one to another without
 touching too much code
 
-# Components
+# Form inputs components
+## Common API
+| prop             | type                                              | description                                              |
+|------------------|---------------------------------------------------|----------------------------------------------------------|
+| validateStatus   | 'success' \| 'warning' \| 'error' \| 'validating' | Shows the error state for invalid input                  |
+| errorMessage     | String                                            | Error message                                            |
+| successMessage   | String                                            | Success message                                          |
 ## text
 ### text input
 #### API
