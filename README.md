@@ -15,16 +15,21 @@ touching too much code
 # Components
 ## text
 ### text input
-#### common semantics
- - password
- - address
-   - separable
- - url
-   - separable
- - email
-   - separable
- - phone number
-   - separable
+#### common semantic variants
+##### password input
+##### address input
+Possible features :
+ - validation & suggestion from databse of valid addresses
+ - suggestion based on localisation
+###### separable version
+##### url input
+###### separable version
+##### email input
+###### sepatable version
+##### phone number
+Possible features :
+  - international
+###### sepatable version
 ### text area
 ## boolean
 ### checkbox
