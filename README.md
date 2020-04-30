@@ -10,7 +10,7 @@ there is everything you need for your project.
 This document aims at :
 - providing a list of most commonly used components in design systems so that it can act as a guideline for design system creators
 - define an API for each component so that design systems following this API could be switched from one to another without
-touching to much code
+touching too much code
 
 # Components
 ## text
