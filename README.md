@@ -14,76 +14,94 @@ touching to much code
 
 # Components
 ## text
- - text input
+### Variants
+#### text input
+##### common semantics
  - password
- - textarea
+ - address
  - url
  - email
  - phone number
+#### text area
 ## boolean
- - checkbox
- - switch
-## select
- - dropdown
- - dropdown search
- - radio buttons
- - tree
- - cascader
-## multiselect
- - dropdown
- - dropdown search
- - dropdown group
- - dropdown seach group
- - checkboxes
- - tree
- - cascader
+### Variants
+#### checkbox
+#### switch
+## enum
+### Variants
+#### select
+Possible features :
+ - search
+ - items icons
+ - groups
+#### treeselect
+Possible features :
+  - search
+#### cascader
+Possible features :
+  - search
+#### radio buttons
+## Set(enum)
+### Variants
+#### multiselect
+Possible features :
+ - search
+ - icons
+ - groups
+#### multitreeselect
+Possible features :
+ - search
+ - groups
 ## number
- - text input
- - text input with up and down buttons
- - dropdown
- - slider
- - money
+### Variants
+#### numeric input
+##### Possible semantics
  - percent
- - rating
+ - money
+ - temperature
+ - any other unit
+#### slider
+#### rating
 ## color
- - text input with mask
- - color picker
+### Variants
+#### color picker
+Possible features :
+- palette
+- different color formats
+- list of last chosen colors
 ## day-month-year (alias 'date')
- - text input with mask
- - drop down
- - calendar
+### Variants
+#### datepicker
 ## seconds-minutes-hour-day-month-year (alias 'datetime')
- - text input with mask
- - drop down
- - calendar
+### Variants
+#### datetimepicker
 ## seconds-minutes-hour (alias 'time')
- - text input with mask
- - drop down
- - clock
-## week-month-year
- - text input with mask
- - drop down
- - calendar
-## month-year
- - text input with mask
- - drop down
- - calendar
+### Variants
+#### timepicker
+## week-month-year (alias 'weekdate')
+### Variants
+#### weekdatepicker
+## month-year (alias 'monthdate')
+### Variants
+#### monthdatepicker
 ## year
- - text input with mask
- - drop down
- - calendar
+### Variants
+#### yearpicker
 ## day
- - drop down
- - calendar
+### Variants
+#### yearpicker
 ## week
- - drop down
- - calendar
+### Variants
+#### weekpicker
 ## month
- - drop down
- - calendar
+### Variants
+#### monthpicker
 ## duration
- - text input with mask
+### Variants
+#### durationpicker
 ## file
- - button opening dialog
- - drag&drop
- - clickable opening dialog and drag&drop
+### Variants
+#### filepicker
+Possible features :
+- filedrop
+- uploaded image preview
