@@ -14,9 +14,8 @@ touching to much code
 
 # Components
 ## text
-### Variants
-#### text input
-##### common semantics
+### text input
+#### common semantics
  - password
  - address
  - url
@@ -24,84 +23,68 @@ touching to much code
  - phone number
 #### text area
 ## boolean
-### Variants
-#### checkbox
-#### switch
+### checkbox
+### switch
 ## enum
-### Variants
-#### select
+### select
 Possible features :
  - search
  - items icons
  - groups
-#### treeselect
+### treeselect
 Possible features :
   - search
-#### cascader
+### cascader
 Possible features :
   - search
-#### radio buttons
+### radio buttons
 ## Set(enum)
-### Variants
-#### multiselect
+### multiselect
 Possible features :
  - search
  - icons
  - groups
-#### multitreeselect
+### multitreeselect
 Possible features :
  - search
  - groups
 ## number
-### Variants
-#### numeric input
-##### Possible semantics
+### numeric input
+#### Possible semantics
  - percent
  - money
  - temperature
  - any other unit
-#### slider
-#### rating
+### slider
+### rating
 ## color
-### Variants
-#### color picker
+### color picker
 Possible features :
 - palette
 - different color formats
 - list of last chosen colors
 ## day-month-year (alias 'date')
-### Variants
-#### datepicker
+### datepicker
 ## seconds-minutes-hour-day-month-year (alias 'datetime')
-### Variants
-#### datetimepicker
+### datetimepicker
 ## seconds-minutes-hour (alias 'time')
-### Variants
-#### timepicker
+### timepicker
 ## week-month-year (alias 'weekdate')
-### Variants
-#### weekdatepicker
+### weekdatepicker
 ## month-year (alias 'monthdate')
-### Variants
-#### monthdatepicker
+### monthdatepicker
 ## year
-### Variants
-#### yearpicker
+### yearpicker
 ## day
-### Variants
-#### yearpicker
+### yearpicker
 ## week
-### Variants
-#### weekpicker
+### weekpicker
 ## month
-### Variants
-#### monthpicker
+### monthpicker
 ## duration
-### Variants
-#### durationpicker
+### durationpicker
 ## file
-### Variants
-#### filepicker
+### filepicker
 Possible features :
 - filedrop
 - uploaded image preview
