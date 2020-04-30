@@ -18,9 +18,13 @@ touching to much code
 #### common semantics
  - password
  - address
+   - separable
  - url
+   - separable
  - email
+   - separable
  - phone number
+   - separable
 #### text area
 ## boolean
 ### checkbox
@@ -49,6 +53,7 @@ Possible features :
  - search
  - groups
 ## number
+- comparable
 ### numeric input
 #### Possible semantics
  - percent
@@ -58,22 +63,34 @@ Possible features :
 ### slider
 ### rating
 ## color
+- separable
 ### color picker
 Possible features :
 - palette
 - different color formats
 - list of last chosen colors
 ## day-month-year (alias 'date')
+- separable
+- comparable
 ### datepicker
 ## seconds-minutes-hour-day-month-year (alias 'datetime')
+- separable
+- comparable
 ### datetimepicker
 ## seconds-minutes-hour (alias 'time')
+- separable
+- comparable
 ### timepicker
 ## week-month-year (alias 'weekdate')
+- separable
+- comparable
 ### weekdatepicker
 ## month-year (alias 'monthdate')
+- separable
+- comparable
 ### monthdatepicker
 ## year
+- comparable
 ### yearpicker
 ## day
 ### daypicker
@@ -82,6 +99,8 @@ Possible features :
 ## month
 ### monthpicker
 ## duration
+- separable
+- comparable
 ### durationpicker
 ## file
 ### filepicker
