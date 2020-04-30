@@ -15,6 +15,8 @@ touching too much code
 # Form inputs components
 ## Common API
 
+For all components : 
+
 | prop               | type                                                               | default value | description                |
 | ------------------ | ------------------------------------------------------------------ | ------------- | -------------------------- |
 | validatationStatus | 'success' \| 'warning' \| 'error' \| 'loading' \| 'none' \| 'auto' | 'auto'        | Validate status appearance |
@@ -22,6 +24,12 @@ touching too much code
 | warningMessages    | [String]                                                           | []            | List of warning messages   |
 | errorMessages      | [String]                                                           | []            | List of error messages     |
 
+For textual inputs only :  
+
+| prop        | type    | default value | description                                                                   |
+| ----------- | ------- | ------------- | ----------------------------------------------------------------------------- |
+| constrained | Boolean | true          | Wether the user can type any character or only the relevant ones are accepted |
+| mask        | String  | ''            | Mask for masked text inputs                                                   |
 
 ## text
 ### text input
