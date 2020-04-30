@@ -14,11 +14,11 @@ touching too much code
 
 # Form inputs components
 ## Common API
-| prop             | type                                              | description                                              |
-|------------------|---------------------------------------------------|----------------------------------------------------------|
-| validateStatus   | 'success' \| 'warning' \| 'error' \| 'validating' | Shows the error state for invalid input                  |
-| errorMessage     | String                                            | Error message                                            |
-| successMessage   | String                                            | Success message                                          |
+| prop             | type                                                        | description                                              |
+|------------------|-------------------------------------------------------------|----------------------------------------------------------|
+| validateStatus   | 'success' \| 'warning' \| 'error' \| 'validating' \| 'none' | Validate status appearance                               |
+| errorMessage     | String                                                      | Error message                                             |
+| successMessage   | String                                                      | Success message                                           |
 ## text
 ### text input
 #### API
