@@ -24,6 +24,7 @@ No additional non React props are required for this component.
 | prop             | type    | description                     |
 |------------------|---------|---------------------------------|
 | visibilityToggle | Boolean | Show toggle visibility button\. |
+
 Possible features :
  - toggle visibility
 ##### address input
