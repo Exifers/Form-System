@@ -14,11 +14,13 @@ touching too much code
 
 # Form inputs components
 ## Common API
-| prop             | type                                                        | description                                              |
-|------------------|-------------------------------------------------------------|----------------------------------------------------------|
-| validateStatus   | 'success' \| 'warning' \| 'error' \| 'validating' \| 'none' | Validate status appearance                               |
-| errorMessage     | String                                                      | Error message                                             |
-| successMessage   | String                                                      | Success message                                           |
+| prop             | type                                                                             | description                                              |
+|------------------|----------------------------------------------------------------------------------|----------------------------------------------------------|
+| validateStatus   | 'success' \| 'warning' \| 'error' \| 'validating' \| 'none'                      | Validate status appearance                           |
+| errorMessage     | String                                                                           | Error message                                            |
+| successMessage   | String                                                                           | Success message                                          |
+| value            | String \| Boolean \| Number \| [String] \| {} \| DateTime |\ Duration \| File \| | Internal value                                            |
+| onChange         | () => {}                                                                         | Change callback                                          |
 ## text
 ### text input
 #### API
